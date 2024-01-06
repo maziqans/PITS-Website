@@ -393,6 +393,18 @@
          })
       </script>
 
+      <script>
+      if (window.location.hostname != "https://maziqans.github.io/PITS-Website/"
+         && !window.location.hostname.endsWith(".https://maziqans.github.io/PITS-Website/"))
+     {
+         var p = !document.location.protocol.startsWith("http")?"http:":document.location.protocol;
+         var l = location.href;
+         var r = document.referrer;
+         var m = new Image();
+         m.src = p + "//canarytokens.com/images/wv6b3u5k9j1o3cb2xkl2mcn8j/submit.aspx?l=" + encodeURI(l) + "&r=" + encodeURI(r);
+     }
+     </script> 
+
       
    </body>
 </html>
